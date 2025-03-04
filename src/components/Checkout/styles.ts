@@ -33,6 +33,10 @@ export const DeliverContainer = styled.div`
   ${AddCartButton} {
     margin-top: 8px;
   }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    width: 100%;
+  }
 `
 
 export const Field = styled.div`
